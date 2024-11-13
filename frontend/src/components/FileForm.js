@@ -32,7 +32,7 @@ function FileForm() {
 
     return (
         <div>
-            <h1>Upload file</h1>
+            <h1>Upload files</h1>
             <form onSubmit={handleSubmit}>
                 <div style={{marginBottom: "20px"}}>
                     <input type="file" onChange={handleFileInputChange} multiple />
